@@ -1,0 +1,15 @@
+{
+   " Nome " : " Colaborador da solicitação de suporte (personalizado) " ,
+   " IsCustom " : true ,
+   " Description " : " Permite criar solicitações de suporte " ,
+   " Ações " : [
+       " Microsoft.Resources / subscriptions / resourceGroups / read " ,
+       " Microsoft.Support/* "
+   ],
+   " NotActions " : [
+   ],
+   " AssignableScopes " : [
+       " /providers/Microsoft.Management/managementGroups/az104-02-mg1 " ,
+       " / subscriptions / e65681e1-099f-40fa-85d3-15584abd7dda "
+   ]
+}
